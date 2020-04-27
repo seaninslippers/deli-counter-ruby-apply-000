@@ -17,7 +17,7 @@ def take_a_number
   number +=1
 end
 
-puts take_a_number.times2
+3.times {puts take_a_number}
 
 
 
