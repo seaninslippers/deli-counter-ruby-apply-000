@@ -11,11 +11,19 @@ def line(deli)
   end
 end
 
-def take_a_number(deli, name)
-  deli.push(name)
-  number = deli.index(name) + 1
-  puts "Welcome, #{name}. You are number #{number} in line."
+def take_a_number
+  number = 0
+  puts "Order number #{number}"
+  number +=1
 end
+
+puts take_a_number.times2
+
+
+
+
+
+
 
 def now_serving (deli)
   if deli.length == 0
