@@ -13,8 +13,8 @@ end
 
 $number = 0
 def take_a_number
-  puts "Order number #{number}"
-  number +=1
+  puts "Order number #{$number}"
+  $number +=1
 end
 
 3.times {puts take_a_number}
