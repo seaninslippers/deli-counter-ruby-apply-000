@@ -11,8 +11,8 @@ def line(deli)
   end
 end
 
+number = 0
 def take_a_number
-  number = 0
   puts "Order number #{number}"
   number +=1
 end
