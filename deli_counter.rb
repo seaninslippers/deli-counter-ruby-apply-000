@@ -11,7 +11,7 @@ def line(deli)
   end
 end
 
-$number = 0
+$number = 1
 def take_a_number
   puts "Order number #{$number}"
   $number +=1
